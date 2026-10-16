@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="A CIDADE SUSPENSA">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24304d"/><stop offset="1" stop-color="#080b15"/></linearGradient><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".25" stop-color="#070914" stop-opacity="0"/><stop offset="1" stop-color="#070914" stop-opacity=".98"/></linearGradient></defs>
+<rect width="600" height="900" fill="url(#bg)"/><path d="M70 370 L170 290 270 350 370 270 510 360 470 405 110 405Z" fill="#b8df9a"/><path d="M130 440 L230 400 320 445 420 400 500 445 470 490 150 490Z" fill="#7ab5a0"/><path d="M200 290 L220 220 240 290 M385 270 L405 200 425 270" stroke="#d6efbb" stroke-width="9" fill="none"/><rect width="600" height="900" fill="url(#shade)"/>
+<rect x="24" y="24" width="552" height="852" rx="8" fill="none" stroke="#c1e5a4" stroke-opacity=".6" stroke-width="2"/>
+<text x="300" y="680" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="3" fill="#fff">A CIDADE</text>
+<text x="300" y="735" text-anchor="middle" font-family="Arial,sans-serif" font-size="53" font-weight="800" letter-spacing="2" fill="#c1e5a4">SUSPENSA</text>
+<text x="300" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="6" fill="#d7d9e6">CINEBASE ORIGINAL</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="PEQUENOS GIGANTES">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#30254c"/><stop offset="1" stop-color="#080b15"/></linearGradient><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".25" stop-color="#070914" stop-opacity="0"/><stop offset="1" stop-color="#070914" stop-opacity=".98"/></linearGradient></defs>
+<rect width="600" height="900" fill="url(#bg)"/><path d="M90 197 l4 9 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4Z" fill="#f4b2d0" opacity=".9"/><path d="M460 167 l4 9 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4Z" fill="#f4b2d0" opacity=".9"/><path d="M500 377 l4 9 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4Z" fill="#f4b2d0" opacity=".9"/><path d="M130 357 l4 9 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4Z" fill="#f4b2d0" opacity=".9"/><path d="M390 237 l4 9 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4Z" fill="#f4b2d0" opacity=".9"/><circle cx="300" cy="370" r="125" fill="#d98fb9" opacity=".25"/><path d="M100 520 Q300 390 500 520" fill="none" stroke="#f4b2d0" stroke-width="8"/><rect width="600" height="900" fill="url(#shade)"/>
+<rect x="24" y="24" width="552" height="852" rx="8" fill="none" stroke="#f4b2d0" stroke-opacity=".6" stroke-width="2"/>
+<text x="300" y="680" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="3" fill="#fff">PEQUENOS</text>
+<text x="300" y="735" text-anchor="middle" font-family="Arial,sans-serif" font-size="53" font-weight="800" letter-spacing="2" fill="#f4b2d0">GIGANTES</text>
+<text x="300" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="6" fill="#d7d9e6">CINEBASE ORIGINAL</text>
+</svg>

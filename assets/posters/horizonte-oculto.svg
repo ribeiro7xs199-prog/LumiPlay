@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="HORIZONTE OCULTO">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17223b"/><stop offset="1" stop-color="#080b15"/></linearGradient><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".25" stop-color="#070914" stop-opacity="0"/><stop offset="1" stop-color="#070914" stop-opacity=".98"/></linearGradient></defs>
+<rect width="600" height="900" fill="url(#bg)"/><circle cx="300" cy="245" r="104" fill="#ef8354" opacity=".85"/><path d="M0 420 L140 300 225 370 340 270 600 430 V800 H0Z" fill="#f3b26b" opacity=".8"/><path d="M0 500 L180 390 330 470 460 360 600 470 V800 H0Z" fill="#273858"/><rect width="600" height="900" fill="url(#shade)"/>
+<rect x="24" y="24" width="552" height="852" rx="8" fill="none" stroke="#ef8354" stroke-opacity=".6" stroke-width="2"/>
+<text x="300" y="680" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="3" fill="#fff">HORIZONTE</text>
+<text x="300" y="735" text-anchor="middle" font-family="Arial,sans-serif" font-size="53" font-weight="800" letter-spacing="2" fill="#ef8354">OCULTO</text>
+<text x="300" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="6" fill="#d7d9e6">CINEBASE ORIGINAL</text>
+</svg>

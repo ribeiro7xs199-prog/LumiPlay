@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="O ÚLTIMO FAROL">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#122a3b"/><stop offset="1" stop-color="#080b15"/></linearGradient><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".25" stop-color="#070914" stop-opacity="0"/><stop offset="1" stop-color="#070914" stop-opacity=".98"/></linearGradient></defs>
+<rect width="600" height="900" fill="url(#bg)"/><path d="M0 500 Q130 440 260 500 T600 490 V800 H0Z" fill="#1f5264"/><path d="M275 500 L300 280 H355 L380 500Z" fill="#f6ead0"/><path d="M290 280 L310 245 H345 L365 280Z" fill="#ffcf70"/><path d="M330 245 L330 135" stroke="#ffcf70" stroke-width="8"/><path d="M330 270 L70 190 70 235Z" fill="#ffcf70" opacity=".22"/><rect width="600" height="900" fill="url(#shade)"/>
+<rect x="24" y="24" width="552" height="852" rx="8" fill="none" stroke="#ffcf70" stroke-opacity=".6" stroke-width="2"/>
+<text x="300" y="680" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="3" fill="#fff">O ÚLTIMO</text>
+<text x="300" y="735" text-anchor="middle" font-family="Arial,sans-serif" font-size="53" font-weight="800" letter-spacing="2" fill="#ffcf70">FAROL</text>
+<text x="300" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="6" fill="#d7d9e6">CINEBASE ORIGINAL</text>
+</svg>
