@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "canal-1",
+    "nome": "afazenda",
+    "titulo": "A Fazenda",
+    "categoria": "Reality",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=afazenda",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=afazenda",
+    "authorized": false
+  },
+  {
+    "id": "canal-2",
+    "nome": "afazenda2",
+    "titulo": "A Fazenda 2",
+    "categoria": "Reality",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=afazenda2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=afazenda2",
+    "authorized": false
+  },
+  {
+    "id": "canal-3",
+    "nome": "afazenda3",
+    "titulo": "A Fazenda 3",
+    "categoria": "Reality",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=afazenda3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=afazenda3",
+    "authorized": false
+  },
+  {
+    "id": "canal-4",
+    "nome": "afazenda4",
+    "titulo": "A Fazenda 4",
+    "categoria": "Reality",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=afazenda4",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=afazenda4",
+    "authorized": false
+  },
+  {
+    "id": "canal-5",
+    "nome": "afazenda5",
+    "titulo": "A Fazenda 5",
+    "categoria": "Reality",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=afazenda5",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=afazenda5",
+    "authorized": false
+  },
+  {
+    "id": "canal-6",
+    "nome": "ae",
+    "titulo": "A&E",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=ae",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=ae",
+    "authorized": false
+  },
+  {
+    "id": "canal-7",
+    "nome": "amc",
+    "titulo": "AMC",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=amc",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=amc",
+    "authorized": false
+  },
+  {
+    "id": "canal-8",
+    "nome": "axn",
+    "titulo": "AXN",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=axn",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=axn",
+    "authorized": false
+  },
+  {
+    "id": "canal-9",
+    "nome": "adultswim",
+    "titulo": "Adult Swim",
+    "categoria": "Infantil e Animação",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=adultswim",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=adultswim",
+    "authorized": false
+  },
+  {
+    "id": "canal-10",
+    "nome": "animalplanet",
+    "titulo": "Animal Planet",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=animalplanet",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=animalplanet",
+    "authorized": false
+  },
+  {
+    "id": "canal-11",
+    "nome": "aparecida",
+    "titulo": "TV Aparecida",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=aparecida",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=aparecida",
+    "authorized": false
+  },
+  {
+    "id": "canal-12",
+    "nome": "bandnews",
+    "titulo": "BandNews",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=bandnews",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=bandnews",
+    "authorized": false
+  },
+  {
+    "id": "canal-13",
+    "nome": "bandrj",
+    "titulo": "Band Rio",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=bandrj",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=bandrj",
+    "authorized": false
+  },
+  {
+    "id": "canal-14",
+    "nome": "bandsp",
+    "titulo": "Band São Paulo",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=bandsp",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=bandsp",
+    "authorized": false
+  },
+  {
+    "id": "canal-15",
+    "nome": "bandsports",
+    "titulo": "BandSports",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=bandsports",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=bandsports",
+    "authorized": false
+  },
+  {
+    "id": "canal-16",
+    "nome": "cnnbrasil",
+    "titulo": "CNN Brasil",
+    "categoria": "Notícias",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=cnnbrasil",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=cnnbrasil",
+    "authorized": false
+  },
+  {
+    "id": "canal-17",
+    "nome": "cancaonova",
+    "titulo": "Canção Nova",
+    "categoria": "Religiosos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=cancaonova",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=cancaonova",
+    "authorized": false
+  },
+  {
+    "id": "canal-18",
+    "nome": "cartoonnetwork",
+    "titulo": "Cartoon Network",
+    "categoria": "Infantil e Animação",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=cartoonnetwork",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=cartoonnetwork",
+    "authorized": false
+  },
+  {
+    "id": "canal-19",
+    "nome": "gloob",
+    "titulo": "Gloob",
+    "categoria": "Infantil e Animação",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=gloob",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=gloob",
+    "authorized": false
+  },
+  {
+    "id": "canal-20",
+    "nome": "cartoonito",
+    "titulo": "Cartoonito",
+    "categoria": "Infantil e Animação",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=cartoonito",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=cartoonito",
+    "authorized": false
+  },
+  {
+    "id": "canal-21",
+    "nome": "caze1",
+    "titulo": "CazéTV 1",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=caze1",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=caze1",
+    "authorized": false
+  },
+  {
+    "id": "canal-22",
+    "nome": "caze2",
+    "titulo": "CazéTV 2",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=caze2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=caze2",
+    "authorized": false
+  },
+  {
+    "id": "canal-23",
+    "nome": "caze3",
+    "titulo": "CazéTV 3",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=caze3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=caze3",
+    "authorized": false
+  },
+  {
+    "id": "canal-24",
+    "nome": "cinemax",
+    "titulo": "Cinemax",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=cinemax",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=cinemax",
+    "authorized": false
+  },
+  {
+    "id": "canal-25",
+    "nome": "combate",
+    "titulo": "Combate",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=combate",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=combate",
+    "authorized": false
+  },
+  {
+    "id": "canal-26",
+    "nome": "cultura",
+    "titulo": "TV Cultura",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=cultura",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=cultura",
+    "authorized": false
+  },
+  {
+    "id": "canal-27",
+    "nome": "discoverychannel",
+    "titulo": "Discoverychannel",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoverychannel",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoverychannel",
+    "authorized": false
+  },
+  {
+    "id": "canal-28",
+    "nome": "discoveryhh",
+    "titulo": "Discoveryhh",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoveryhh",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoveryhh",
+    "authorized": false
+  },
+  {
+    "id": "canal-29",
+    "nome": "discoveryid",
+    "titulo": "Discoveryid",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoveryid",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoveryid",
+    "authorized": false
+  },
+  {
+    "id": "canal-30",
+    "nome": "discoverykids",
+    "titulo": "Discoverykids",
+    "categoria": "Infantil e Animação",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoverykids",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoverykids",
+    "authorized": false
+  },
+  {
+    "id": "canal-31",
+    "nome": "discoveryscience",
+    "titulo": "Discoveryscience",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoveryscience",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoveryscience",
+    "authorized": false
+  },
+  {
+    "id": "canal-32",
+    "nome": "discoverytheather",
+    "titulo": "Discoverytheather",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoverytheather",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoverytheather",
+    "authorized": false
+  },
+  {
+    "id": "canal-33",
+    "nome": "discoveryturbo",
+    "titulo": "Discoveryturbo",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoveryturbo",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoveryturbo",
+    "authorized": false
+  },
+  {
+    "id": "canal-34",
+    "nome": "discoveryworld",
+    "titulo": "Discoveryworld",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=discoveryworld",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=discoveryworld",
+    "authorized": false
+  },
+  {
+    "id": "canal-35",
+    "nome": "disneyplus1",
+    "titulo": "Disneyplus 1",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=disneyplus1",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=disneyplus1",
+    "authorized": false
+  },
+  {
+    "id": "canal-36",
+    "nome": "disneyplus2",
+    "titulo": "Disneyplus 2",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=disneyplus2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=disneyplus2",
+    "authorized": false
+  },
+  {
+    "id": "canal-37",
+    "nome": "disneyplus3",
+    "titulo": "Disneyplus 3",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=disneyplus3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=disneyplus3",
+    "authorized": false
+  },
+  {
+    "id": "canal-38",
+    "nome": "espn",
+    "titulo": "Espn",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=espn",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=espn",
+    "authorized": false
+  },
+  {
+    "id": "canal-39",
+    "nome": "espn2",
+    "titulo": "Espn 2",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=espn2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=espn2",
+    "authorized": false
+  },
+  {
+    "id": "canal-40",
+    "nome": "espn3",
+    "titulo": "Espn 3",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=espn3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=espn3",
+    "authorized": false
+  },
+  {
+    "id": "canal-41",
+    "nome": "espn4",
+    "titulo": "Espn 4",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=espn4",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=espn4",
+    "authorized": false
+  },
+  {
+    "id": "canal-42",
+    "nome": "espn5",
+    "titulo": "Espn 5",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=espn5",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=espn5",
+    "authorized": false
+  },
+  {
+    "id": "canal-43",
+    "nome": "espn6",
+    "titulo": "Espn 6",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=espn6",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=espn6",
+    "authorized": false
+  },
+  {
+    "id": "canal-44",
+    "nome": "foodnetwork",
+    "titulo": "Foodnetwork",
+    "categoria": "Culinária",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=foodnetwork",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=foodnetwork",
+    "authorized": false
+  },
+  {
+    "id": "canal-45",
+    "nome": "gnt",
+    "titulo": "Gnt",
+    "categoria": "Entretenimento",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=gnt",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=gnt",
+    "authorized": false
+  },
+  {
+    "id": "canal-46",
+    "nome": "globoam",
+    "titulo": "Globoam",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globoam",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globoam",
+    "authorized": false
+  },
+  {
+    "id": "canal-47",
+    "nome": "globodf",
+    "titulo": "Globodf",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globodf",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globodf",
+    "authorized": false
+  },
+  {
+    "id": "canal-48",
+    "nome": "globoce",
+    "titulo": "Globoce",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globoce",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globoce",
+    "authorized": false
+  },
+  {
+    "id": "canal-49",
+    "nome": "globoes",
+    "titulo": "Globoes",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globoes",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globoes",
+    "authorized": false
+  },
+  {
+    "id": "canal-50",
+    "nome": "globomg",
+    "titulo": "Globomg",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globomg",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globomg",
+    "authorized": false
+  },
+  {
+    "id": "canal-51",
+    "nome": "globogo",
+    "titulo": "Globogo",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globogo",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globogo",
+    "authorized": false
+  },
+  {
+    "id": "canal-52",
+    "nome": "globopb",
+    "titulo": "Globopb",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globopb",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globopb",
+    "authorized": false
+  },
+  {
+    "id": "canal-53",
+    "nome": "globope",
+    "titulo": "Globope",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globope",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globope",
+    "authorized": false
+  },
+  {
+    "id": "canal-54",
+    "nome": "globorj",
+    "titulo": "Globorj",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globorj",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globorj",
+    "authorized": false
+  },
+  {
+    "id": "canal-55",
+    "nome": "globors",
+    "titulo": "Globors",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globors",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globors",
+    "authorized": false
+  },
+  {
+    "id": "canal-56",
+    "nome": "globosp",
+    "titulo": "Globosp",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globosp",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globosp",
+    "authorized": false
+  },
+  {
+    "id": "canal-57",
+    "nome": "globonews",
+    "titulo": "GloboNews",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globonews",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globonews",
+    "authorized": false
+  },
+  {
+    "id": "canal-58",
+    "nome": "globonovelas",
+    "titulo": "Globoplay Novelas",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=globonovelas",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=globonovelas",
+    "authorized": false
+  },
+  {
+    "id": "canal-59",
+    "nome": "hbo",
+    "titulo": "Hbo",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hbo",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hbo",
+    "authorized": false
+  },
+  {
+    "id": "canal-60",
+    "nome": "hbo2",
+    "titulo": "Hbo 2",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hbo2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hbo2",
+    "authorized": false
+  },
+  {
+    "id": "canal-61",
+    "nome": "hbofamily",
+    "titulo": "Hbofamily",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hbofamily",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hbofamily",
+    "authorized": false
+  },
+  {
+    "id": "canal-62",
+    "nome": "hbomundi",
+    "titulo": "Hbomundi",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hbomundi",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hbomundi",
+    "authorized": false
+  },
+  {
+    "id": "canal-63",
+    "nome": "hbopop",
+    "titulo": "Hbopop",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hbopop",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hbopop",
+    "authorized": false
+  },
+  {
+    "id": "canal-64",
+    "nome": "hboplus",
+    "titulo": "Hboplus",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hboplus",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hboplus",
+    "authorized": false
+  },
+  {
+    "id": "canal-65",
+    "nome": "hboxtreme",
+    "titulo": "Hboxtreme",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hboxtreme",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hboxtreme",
+    "authorized": false
+  },
+  {
+    "id": "canal-66",
+    "nome": "hgtv",
+    "titulo": "Hgtv",
+    "categoria": "Casa e Decoração",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=hgtv",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=hgtv",
+    "authorized": false
+  },
+  {
+    "id": "canal-67",
+    "nome": "history",
+    "titulo": "History",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=history",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=history",
+    "authorized": false
+  },
+  {
+    "id": "canal-68",
+    "nome": "history2",
+    "titulo": "History 2",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=history2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=history2",
+    "authorized": false
+  },
+  {
+    "id": "canal-69",
+    "nome": "mtv",
+    "titulo": "Mtv",
+    "categoria": "Música e Entretenimento",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=mtv",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=mtv",
+    "authorized": false
+  },
+  {
+    "id": "canal-70",
+    "nome": "masterchef",
+    "titulo": "Masterchef",
+    "categoria": "Culinária",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=masterchef",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=masterchef",
+    "authorized": false
+  },
+  {
+    "id": "canal-71",
+    "nome": "max1",
+    "titulo": "Max 1",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=max1",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=max1",
+    "authorized": false
+  },
+  {
+    "id": "canal-72",
+    "nome": "max2",
+    "titulo": "Max 2",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=max2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=max2",
+    "authorized": false
+  },
+  {
+    "id": "canal-73",
+    "nome": "max3",
+    "titulo": "Max 3",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=max3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=max3",
+    "authorized": false
+  },
+  {
+    "id": "canal-74",
+    "nome": "megapix",
+    "titulo": "Megapix",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=megapix",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=megapix",
+    "authorized": false
+  },
+  {
+    "id": "canal-75",
+    "nome": "multishow",
+    "titulo": "Multishow",
+    "categoria": "Música e Entretenimento",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=multishow",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=multishow",
+    "authorized": false
+  },
+  {
+    "id": "canal-76",
+    "nome": "off",
+    "titulo": "Off",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=off",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=off",
+    "authorized": false
+  },
+  {
+    "id": "canal-77",
+    "nome": "paramountplus",
+    "titulo": "Paramountplus",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=paramountplus",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=paramountplus",
+    "authorized": false
+  },
+  {
+    "id": "canal-78",
+    "nome": "paramountplus2",
+    "titulo": "Paramountplus 2",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=paramountplus2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=paramountplus2",
+    "authorized": false
+  },
+  {
+    "id": "canal-79",
+    "nome": "premiere",
+    "titulo": "Premiere",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere",
+    "authorized": false
+  },
+  {
+    "id": "canal-80",
+    "nome": "premiere2",
+    "titulo": "Premiere 2",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere2",
+    "authorized": false
+  },
+  {
+    "id": "canal-81",
+    "nome": "premiere3",
+    "titulo": "Premiere 3",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere3",
+    "authorized": false
+  },
+  {
+    "id": "canal-82",
+    "nome": "premiere4",
+    "titulo": "Premiere 4",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere4",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere4",
+    "authorized": false
+  },
+  {
+    "id": "canal-83",
+    "nome": "premiere5",
+    "titulo": "Premiere 5",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere5",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere5",
+    "authorized": false
+  },
+  {
+    "id": "canal-84",
+    "nome": "premiere6",
+    "titulo": "Premiere 6",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere6",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere6",
+    "authorized": false
+  },
+  {
+    "id": "canal-85",
+    "nome": "premiere7",
+    "titulo": "Premiere 7",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere7",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere7",
+    "authorized": false
+  },
+  {
+    "id": "canal-86",
+    "nome": "premiere8",
+    "titulo": "Premiere 8",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=premiere8",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=premiere8",
+    "authorized": false
+  },
+  {
+    "id": "canal-87",
+    "nome": "primevideo",
+    "titulo": "Primevideo",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=primevideo",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=primevideo",
+    "authorized": false
+  },
+  {
+    "id": "canal-88",
+    "nome": "primevideo2",
+    "titulo": "Primevideo 2",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=primevideo2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=primevideo2",
+    "authorized": false
+  },
+  {
+    "id": "canal-89",
+    "nome": "primevideo3",
+    "titulo": "Primevideo 3",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=primevideo3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=primevideo3",
+    "authorized": false
+  },
+  {
+    "id": "canal-90",
+    "nome": "primevideo4",
+    "titulo": "Primevideo 4",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=primevideo4",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=primevideo4",
+    "authorized": false
+  },
+  {
+    "id": "canal-91",
+    "nome": "recordmg",
+    "titulo": "Recordmg",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=recordmg",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=recordmg",
+    "authorized": false
+  },
+  {
+    "id": "canal-92",
+    "nome": "recordrj",
+    "titulo": "Recordrj",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=recordrj",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=recordrj",
+    "authorized": false
+  },
+  {
+    "id": "canal-93",
+    "nome": "recordsp",
+    "titulo": "Recordsp",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=recordsp",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=recordsp",
+    "authorized": false
+  },
+  {
+    "id": "canal-94",
+    "nome": "recordgo",
+    "titulo": "Recordgo",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=recordgo",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=recordgo",
+    "authorized": false
+  },
+  {
+    "id": "canal-95",
+    "nome": "redevida",
+    "titulo": "Rede Vida",
+    "categoria": "Religiosos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=redevida",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=redevida",
+    "authorized": false
+  },
+  {
+    "id": "canal-96",
+    "nome": "sbtrj",
+    "titulo": "Sbtrj",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sbtrj",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sbtrj",
+    "authorized": false
+  },
+  {
+    "id": "canal-97",
+    "nome": "sbtsp",
+    "titulo": "Sbtsp",
+    "categoria": "Canais Abertos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sbtsp",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sbtsp",
+    "authorized": false
+  },
+  {
+    "id": "canal-98",
+    "nome": "sonychannel",
+    "titulo": "Sonychannel",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sonychannel",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sonychannel",
+    "authorized": false
+  },
+  {
+    "id": "canal-99",
+    "nome": "space",
+    "titulo": "Space",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=space",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=space",
+    "authorized": false
+  },
+  {
+    "id": "canal-100",
+    "nome": "sportynet",
+    "titulo": "Sportynet",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportynet",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportynet",
+    "authorized": false
+  },
+  {
+    "id": "canal-101",
+    "nome": "sportynetplus1",
+    "titulo": "Sportynetplus 1",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportynetplus1",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportynetplus1",
+    "authorized": false
+  },
+  {
+    "id": "canal-102",
+    "nome": "sportynetplus2",
+    "titulo": "Sportynetplus 2",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportynetplus2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportynetplus2",
+    "authorized": false
+  },
+  {
+    "id": "canal-103",
+    "nome": "sportynetplus3",
+    "titulo": "Sportynetplus 3",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportynetplus3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportynetplus3",
+    "authorized": false
+  },
+  {
+    "id": "canal-104",
+    "nome": "sportv",
+    "titulo": "Sportv",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportv",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportv",
+    "authorized": false
+  },
+  {
+    "id": "canal-105",
+    "nome": "sportv2",
+    "titulo": "Sportv 2",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportv2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportv2",
+    "authorized": false
+  },
+  {
+    "id": "canal-106",
+    "nome": "sportv3",
+    "titulo": "Sportv 3",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportv3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportv3",
+    "authorized": false
+  },
+  {
+    "id": "canal-107",
+    "nome": "sportv4",
+    "titulo": "Sportv 4",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sportv4",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sportv4",
+    "authorized": false
+  },
+  {
+    "id": "canal-108",
+    "nome": "starchannel",
+    "titulo": "Starchannel",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=starchannel",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=starchannel",
+    "authorized": false
+  },
+  {
+    "id": "canal-109",
+    "nome": "studiouniversal",
+    "titulo": "Studiouniversal",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=studiouniversal",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=studiouniversal",
+    "authorized": false
+  },
+  {
+    "id": "canal-110",
+    "nome": "tcm",
+    "titulo": "Tcm",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=tcm",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=tcm",
+    "authorized": false
+  },
+  {
+    "id": "canal-111",
+    "nome": "tlc",
+    "titulo": "Tlc",
+    "categoria": "Documentários",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=tlc",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=tlc",
+    "authorized": false
+  },
+  {
+    "id": "canal-112",
+    "nome": "tnt",
+    "titulo": "Tnt",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=tnt",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=tnt",
+    "authorized": false
+  },
+  {
+    "id": "canal-113",
+    "nome": "tntnovelas",
+    "titulo": "Tntnovelas",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=tntnovelas",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=tntnovelas",
+    "authorized": false
+  },
+  {
+    "id": "canal-114",
+    "nome": "tntseries",
+    "titulo": "Tntseries",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=tntseries",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=tntseries",
+    "authorized": false
+  },
+  {
+    "id": "canal-115",
+    "nome": "tvpaieterno",
+    "titulo": "TV Pai Eterno",
+    "categoria": "Religiosos",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=tvpaieterno",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=tvpaieterno",
+    "authorized": false
+  },
+  {
+    "id": "canal-116",
+    "nome": "telecineaction",
+    "titulo": "Telecineaction",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=telecineaction",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=telecineaction",
+    "authorized": false
+  },
+  {
+    "id": "canal-117",
+    "nome": "telecinecult",
+    "titulo": "Telecinecult",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=telecinecult",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=telecinecult",
+    "authorized": false
+  },
+  {
+    "id": "canal-118",
+    "nome": "telecinefun",
+    "titulo": "Telecinefun",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=telecinefun",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=telecinefun",
+    "authorized": false
+  },
+  {
+    "id": "canal-119",
+    "nome": "telecinepipoca",
+    "titulo": "Telecinepipoca",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=telecinepipoca",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=telecinepipoca",
+    "authorized": false
+  },
+  {
+    "id": "canal-120",
+    "nome": "telecinepremium",
+    "titulo": "Telecinepremium",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=telecinepremium",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=telecinepremium",
+    "authorized": false
+  },
+  {
+    "id": "canal-121",
+    "nome": "telecinetouch",
+    "titulo": "Telecinetouch",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=telecinetouch",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=telecinetouch",
+    "authorized": false
+  },
+  {
+    "id": "canal-122",
+    "nome": "ufcfightpass",
+    "titulo": "Ufcfightpass",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=ufcfightpass",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=ufcfightpass",
+    "authorized": false
+  },
+  {
+    "id": "canal-123",
+    "nome": "universaltv",
+    "titulo": "Universaltv",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=universaltv",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=universaltv",
+    "authorized": false
+  },
+  {
+    "id": "canal-124",
+    "nome": "warnerchannel",
+    "titulo": "Warnerchannel",
+    "categoria": "Filmes e Séries",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=warnerchannel",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=warnerchannel",
+    "authorized": false
+  },
+  {
+    "id": "canal-125",
+    "nome": "xsports",
+    "titulo": "XSports",
+    "categoria": "Esportes",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=xsports",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=xsports",
+    "authorized": false
+  },
+  {
+    "id": "canal-126",
+    "nome": "pt_abola",
+    "titulo": "A Bola TV",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_abola",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_abola",
+    "authorized": false
+  },
+  {
+    "id": "canal-127",
+    "nome": "pt_benficatv",
+    "titulo": "Benfica TV",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_benficatv",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_benficatv",
+    "authorized": false
+  },
+  {
+    "id": "canal-128",
+    "nome": "pt_canal11",
+    "titulo": "Canal 11",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_canal11",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_canal11",
+    "authorized": false
+  },
+  {
+    "id": "canal-129",
+    "nome": "pt_eleven1",
+    "titulo": "Eleven1",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_eleven1",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_eleven1",
+    "authorized": false
+  },
+  {
+    "id": "canal-130",
+    "nome": "pt_eleven2",
+    "titulo": "Eleven2",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_eleven2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_eleven2",
+    "authorized": false
+  },
+  {
+    "id": "canal-131",
+    "nome": "pt_eleven3",
+    "titulo": "Eleven3",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_eleven3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_eleven3",
+    "authorized": false
+  },
+  {
+    "id": "canal-132",
+    "nome": "pt_sportv1",
+    "titulo": "Sportv1",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_sportv1",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_sportv1",
+    "authorized": false
+  },
+  {
+    "id": "canal-133",
+    "nome": "pt_sportv2",
+    "titulo": "Sportv2",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_sportv2",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_sportv2",
+    "authorized": false
+  },
+  {
+    "id": "canal-134",
+    "nome": "pt_sportv3",
+    "titulo": "Sportv3",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_sportv3",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_sportv3",
+    "authorized": false
+  },
+  {
+    "id": "canal-135",
+    "nome": "pt_sportv4",
+    "titulo": "Sportv4",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_sportv4",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_sportv4",
+    "authorized": false
+  },
+  {
+    "id": "canal-136",
+    "nome": "pt_sportv5",
+    "titulo": "Sportv5",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_sportv5",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_sportv5",
+    "authorized": false
+  },
+  {
+    "id": "canal-137",
+    "nome": "pt_sportv6",
+    "titulo": "Sportv6",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_sportv6",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_sportv6",
+    "authorized": false
+  },
+  {
+    "id": "canal-138",
+    "nome": "pt_sportv7",
+    "titulo": "Sportv7",
+    "categoria": "Canais de Portugal",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=pt_sportv7",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=pt_sportv7",
+    "authorized": false
+  },
+  {
+    "id": "canal-139",
+    "nome": "playboy",
+    "titulo": "Playboy TV",
+    "categoria": "Adulto",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=playboy",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=playboy",
+    "authorized": false
+  },
+  {
+    "id": "canal-140",
+    "nome": "sexyhot",
+    "titulo": "Sexy Hot",
+    "categoria": "Adulto",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=sexyhot",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=sexyhot",
+    "authorized": false
+  },
+  {
+    "id": "canal-141",
+    "nome": "24h_chaves",
+    "titulo": "Chaves 24h",
+    "categoria": "Maratonas 24h",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=24h_chaves",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=24h_chaves",
+    "authorized": false
+  },
+  {
+    "id": "canal-142",
+    "nome": "24h_dragonball",
+    "titulo": "Dragonball 24h",
+    "categoria": "Maratonas 24h",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=24h_dragonball",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=24h_dragonball",
+    "authorized": false
+  },
+  {
+    "id": "canal-143",
+    "nome": "24h_friends",
+    "titulo": "Friends 24h",
+    "categoria": "Maratonas 24h",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=24h_friends",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=24h_friends",
+    "authorized": false
+  },
+  {
+    "id": "canal-144",
+    "nome": "24h_naruto",
+    "titulo": "Naruto 24h",
+    "categoria": "Maratonas 24h",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=24h_naruto",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=24h_naruto",
+    "authorized": false
+  },
+  {
+    "id": "canal-145",
+    "nome": "24h_simpsons",
+    "titulo": "Os Simpsons 24h",
+    "categoria": "Maratonas 24h",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=24h_simpsons",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=24h_simpsons",
+    "authorized": false
+  },
+  {
+    "id": "canal-146",
+    "nome": "24h_odeiachris",
+    "titulo": "Todo Mundo Odeia o Chris 24h",
+    "categoria": "Maratonas 24h",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=24h_odeiachris",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=24h_odeiachris",
+    "authorized": false
+  },
+  {
+    "id": "canal-147",
+    "nome": "24h_picapau",
+    "titulo": "Pica-Pau 24h",
+    "categoria": "Maratonas 24h",
+    "tipo": "iframe",
+    "url": "https://sinalpublicoetv.vercel.app/?id=24h_picapau",
+    "embed": "https://sinalpublicoetv.vercel.app/?id=24h_picapau",
+    "authorized": false
+  }
+]

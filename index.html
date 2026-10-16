@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="LumiPlay — descubra filmes e séries.">
+  <title>LumiPlay — Filmes e séries</title>
+  <link rel="icon" type="image/png" href="assets/images/lumiplay-icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="LumiPlay início"><img class="brand-logo-img" src="assets/images/lumiplay-logo.png" alt="LumiPlay — Sua próxima história começa aqui"></a>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <button class="nav-link active" data-filter="Tudo">Início</button>
+      <button class="nav-link" data-filter="Filme">Filmes</button>
+      <button class="nav-link" data-filter="Série">Séries</button>
+      <button class="nav-link" data-tv-nav="true">TV ao Vivo</button>
+      <button class="nav-link" id="watchHistoryNav">Assistidos</button>
+      <button class="nav-link" id="myListNav">Salvos</button>
+    </nav>
+    <div class="header-actions">
+      <label class="search-wrap" aria-label="Buscar no catálogo"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar títulos..." autocomplete="off"></label>
+      <button id="tmdbOpen" class="icon-button" title="Configurar catálogo online" aria-label="Configurar catálogo online">☁</button><button id="adminOpen" class="icon-button" title="Painel de administração" aria-label="Abrir painel administrativo">⚙</button>
+    </div>
+  </header>
+  <nav class="mobile-nav" aria-label="Navegação principal para celular">
+    <button class="nav-link active" data-filter="Tudo">Início</button>
+    <button class="nav-link" data-filter="Filme">Filmes</button>
+    <button class="nav-link" data-filter="Série">Séries</button>
+    <button class="nav-link" data-tv-nav="true">TV ao Vivo</button>
+    <button class="nav-link" id="mobileWatchHistoryNav">Assistidos</button>
+    <button class="nav-link" id="mobileMyListNav">Salvos</button>
+  </nav>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> SEU PRÓXIMO PLAY COMEÇA AQUI</p>
+        <h1>Histórias que<br><span>ficam com você.</span></h1>
+        <p class="hero-copy">Descubra filmes e séries em um só lugar.</p>
+        <div class="hero-buttons">
+          <button class="button button-primary" id="heroPlay">▶ Explorar catálogo</button>
+          <button class="button button-ghost" id="heroInfo">ⓘ Como funciona</button>
+        </div>
+        <p class="hero-note">Catálogo demonstrativo • Adicione conteúdo autorizado pelo painel</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orb"></div><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+        <div class="art-poster"><span>NOITE</span><strong>INFINITA</strong><small>UMA HISTÓRIA ORIGINAL</small></div>
+      </div>
+    </section>
+
+    <section class="quick-stats" aria-label="Resumo do catálogo">
+      <div><strong id="totalTitles">0</strong><span>Títulos no catálogo</span></div>
+      <div><strong id="totalMovies">0</strong><span>Filmes</span></div>
+      <div><strong id="totalSeries">0</strong><span>Séries</span></div>
+      <div class="status-pill"><span class="status-dot"></span> Projeto em construção</div>
+    </section>
+
+    <section class="catalog-section hidden" id="liveTvSection">
+      <div class="section-heading"><div><p class="eyebrow"><span class="live-dot"></span> TRANSMISSÕES AUTORIZADAS</p><h2>TV ao Vivo</h2><p class="tv-subtitle">Adicione canais que você possui ou tem autorização para incorporar.</p></div></div>
+      <div class="catalog-controls tv-controls"><label class="search-wrap tv-search"><span>⌕</span><input id="tvSearch" type="search" placeholder="Buscar canais..." autocomplete="off"></label><label class="genre-filter">Categoria <select id="tvCategory"><option value="Tudo">Todas</option></select></label></div>
+      <div id="tvChannelGrid" class="tv-channel-grid"></div>
+      <div id="tvEmpty" class="empty-state"><div class="empty-icon">▣</div><h3>Nenhum canal cadastrado</h3><p>Os canais cadastrados aparecerão aqui.</p></div>
+    </section>
+
+    <section class="catalog-section hidden" id="continueSection">
+      <div class="section-heading"><div><p class="eyebrow">VOLTE DE ONDE PAROU</p><h2>Continuar assistindo</h2></div></div>
+      <div id="continueGrid" class="catalog-grid"></div>
+    </section>
+
+    <section class="catalog-section hidden" id="watchHistorySection">
+      <div class="section-heading"><div><p class="eyebrow">SUA ATIVIDADE</p><h2>Assistidos recentemente</h2></div><button class="chip" id="clearWatchHistory">Limpar histórico</button></div>
+      <div class="catalog-controls history-controls">
+        <div class="filter-chips"><button class="chip active" data-history-filter="Tudo">Tudo</button><button class="chip" data-history-filter="Filme">Filmes</button><button class="chip" data-history-filter="Série">Séries</button></div>
+        <label class="search-wrap history-search"><span>⌕</span><input id="historySearch" type="search" placeholder="Pesquisar no histórico..." autocomplete="off"></label>
+      </div>
+      <div id="watchHistoryGrid" class="catalog-grid"></div>
+      <div id="watchHistoryEmpty" class="empty-state hidden"><div class="empty-icon">◷</div><h3>Nenhum título no histórico</h3><p>Os filmes e episódios que você abrir aparecerão aqui.</p></div>
+    </section>
+
+    <section class="catalog-section hidden" id="myListSection">
+      <div class="section-heading"><div><p class="eyebrow">GUARDADOS PARA VOCÊ</p><h2>Salvos para assistir</h2></div><button class="chip" id="backToCatalog">Voltar ao catálogo</button></div>
+      <div id="myListGrid" class="catalog-grid"></div>
+      <div id="myListEmpty" class="empty-state"><div class="empty-icon">♡</div><h3>Sua lista está vazia</h3><p>Abra os detalhes de um título e toque em “Adicionar à minha lista”.</p></div>
+    </section>
+
+    <section class="catalog-section" id="catalogSection">
+      <div class="section-heading">
+        <div><p class="eyebrow">ESCOLHA SUA PRÓXIMA HISTÓRIA</p><h2 id="catalogHeading">Em destaque</h2></div>
+        <div class="catalog-controls"><div class="filter-chips" id="filterChips">
+          <button class="chip active" data-filter="Tudo">Tudo</button>
+          <button class="chip" data-filter="Filme">Filmes</button>
+          <button class="chip" data-filter="Série">Séries</button>
+        </div><label class="genre-filter">Gênero <select id="genreFilter"><option value="Tudo">Todos</option><option>Ação</option><option>Aventura</option><option>Animação</option><option>Comédia</option><option>Crime</option><option>Documentário</option><option>Drama</option><option>Família</option><option>Fantasia</option><option>Ficção científica</option><option>Mistério</option><option>Romance</option><option>Suspense</option><option>Terror</option></select></label></div>
+      </div>
+      <div id="catalogGrid" class="catalog-grid"></div><div class="load-more-wrap"><button id="loadMoreTitles" class="button button-ghost hidden">Carregar mais títulos</button><p id="catalogStatus" class="catalog-status" aria-live="polite"></p></div>
+      <div id="emptyState" class="empty-state hidden"><div class="empty-icon">⌕</div><h3>Nenhum título encontrado</h3><p>Tente outra busca ou adicione títulos pelo painel administrativo.</p></div>
+    </section>
+
+    <section class="starter-banner">
+      <div class="banner-icon">✦</div><div><h3>Seu catálogo, do seu jeito</h3><p>Cadastre filmes, séries, temporadas e fontes de vídeo que você tem autorização para usar.</p></div>
+      <button class="button button-ghost" id="bannerAdmin">Abrir painel <span>→</span></button>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#" aria-label="LumiPlay início"><img class="brand-logo-img" src="assets/images/lumiplay-logo.png" alt="LumiPlay"></a><p>Projeto independente. Disponibilize apenas conteúdo próprio, de domínio público ou devidamente licenciado. This product uses the TMDB API but is not endorsed or certified by TMDB.</p><span>© <span id="year"></span> LumiPlay</span></footer>
+
+  <div id="detailsModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="detailsTitle">
+    <div class="modal-backdrop" data-close="details"></div>
+    <div class="modal-panel details-panel"><button class="modal-close" data-close="details" aria-label="Fechar">×</button>
+      <div id="detailsHero" class="details-hero"></div>
+      <div class="details-content"><p class="eyebrow" id="detailsEyebrow">DETALHES</p><h2 id="detailsTitle">Título</h2><p id="detailsMeta" class="details-meta"></p><p id="detailsDescription" class="details-description"></p>
+        <div class="details-actions"><button id="detailsPlay" class="button button-primary">▶ Assistir</button><button id="detailsFavorite" class="button button-ghost">♡ Adicionar à minha lista</button></div>
+        <section class="community-panel"><div class="community-stats"><div><strong id="detailRatingAverage">—</strong><span>Nota média</span></div><div><strong id="detailClickCount">0</strong><span>Cliques</span></div><div><strong id="detailCompletionCount">0</strong><span>Assistiram até o fim</span></div></div><h3>Avalie este título</h3><div class="rating-input" id="ratingInput" role="radiogroup" aria-label="Sua avaliação"><button type="button" data-rating="1" aria-label="1 estrela">★</button><button type="button" data-rating="2" aria-label="2 estrelas">★</button><button type="button" data-rating="3" aria-label="3 estrelas">★</button><button type="button" data-rating="4" aria-label="4 estrelas">★</button><button type="button" data-rating="5" aria-label="5 estrelas">★</button></div><form id="commentForm" class="comment-form"><label for="commentText">Deixe um comentário</label><textarea id="commentText" maxlength="800" rows="3" placeholder="O que você achou deste título?"></textarea><button class="button button-primary" type="submit">Enviar comentário</button></form><div id="commentsList" class="comments-list"><p class="form-hint">Carregando avaliações e comentários…</p></div></section>
+        <div id="episodeArea" class="episode-area hidden"><div class="episode-heading"><h3>Episódios</h3><label>Temporada <select id="seasonSelect"></select></label></div><div id="episodeList" class="episode-list"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="playerModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="playerTitle">
+    <div class="modal-backdrop" data-close="player"></div>
+    <div class="modal-panel player-panel"><button class="modal-close" data-close="player" aria-label="Fechar">×</button><div class="video-wrap"><video id="videoPlayer" controls playsinline preload="metadata"></video><iframe id="embedPlayer" class="embed-player hidden" title="Player de vídeo" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe><div id="videoPlaceholder" class="video-placeholder"><span class="play-large">▶</span><p>Player indisponível para este título.</p></div></div><div class="player-info"><p class="eyebrow">REPRODUZINDO AGORA</p><h2 id="playerTitle">Título</h2><p id="playerDescription"></p><p id="playerSourceNote" class="source-note"></p></div></div>
+  </div>
+
+  <div id="infoModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="infoTitle">
+    <div class="modal-backdrop" data-close="info"></div>
+    <div class="modal-panel small-panel"><button class="modal-close" data-close="info" aria-label="Fechar">×</button><p class="eyebrow">SOBRE O PROJETO</p><h2 id="infoTitle">Um lugar para suas histórias.</h2><p>A LumiPlay reúne metadados de filmes e séries, incluindo títulos consultados no TMDB quando a integração está configurada. O player aceita um endereço direto de vídeo compatível, e o painel permite cadastrar metadados localmente neste navegador.</p><p>Para um site público com contas, sincronização entre dispositivos e administração segura, a próxima etapa será conectar um backend. Nunca coloque senhas ou chaves secretas dentro dos arquivos do navegador.</p><button class="button button-primary full-width" data-close="info">Entendi</button></div>
+  </div>
+
+  <div id="adminModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+    <div class="modal-backdrop" data-close="admin"></div>
+    <div class="modal-panel admin-panel"><button class="modal-close" data-close="admin" aria-label="Fechar">×</button><p class="eyebrow">GERENCIAMENTO ONLINE</p><h2 id="adminTitle">Painel administrativo</h2><p id="backendStatus" class="admin-warning">Conectando ao banco compartilhado…</p>
+      <section id="adminLoginBox" class="admin-form">
+        <p>Entre com o e-mail e a senha do usuário administrador criado no Supabase.</p>
+        <label>E-mail<input id="adminEmail" type="email" autocomplete="username" required placeholder="seu@email.com"></label>
+        <label>Senha<input id="adminPassword" type="password" autocomplete="current-password" required placeholder="Senha do Supabase"></label>
+        <button id="adminLogin" class="button button-primary full-width" type="button">Entrar como administrador</button>
+      </section>
+      <div id="adminLoggedBox" class="hidden"><p id="adminIdentity" class="form-hint"></p>
+        <section class="admin-form" aria-label="Gerenciar canais de TV">
+          <h3>TV ao Vivo — gerenciar canais</h3>
+          <p class="form-hint">Cadastre canais aqui. No campo do embed, você pode colar a URL ou o código completo &lt;iframe&gt; fornecido pelo serviço.</p>
+          <button id="addTvChannel" class="button button-primary full-width" type="button">＋ Adicionar canal de TV</button>
+          <button id="importTvChannels" class="button button-ghost full-width" type="button">Importar canais JSON</button>
+          <button id="exportTvChannels" class="button button-ghost full-width" type="button">Exportar canais JSON</button>
+          <input id="tvImportFile" type="file" accept="application/json,.json" class="hidden">
+        </section>
+        <button id="adminLogout" class="button button-ghost full-width" type="button">Sair da conta administrativa</button></div>
+      <button id="adminAddTitle" class="button button-primary full-width hidden" type="button">＋ Adicionar filme ou série pelo TMDB</button>
+      <section id="addTitleSearchPanel" class="admin-form hidden" aria-label="Pesquisar título no TMDB">
+        <h3>Adicionar filme ou série</h3>
+        <p class="form-hint">Pesquise o nome no TMDB e escolha o resultado correto. Os dados serão preenchidos automaticamente; depois, em Editar, basta colar a URL direta do vídeo MP4.</p>
+        <div class="admin-tmdb-search"><input id="tmdbAdminSearch" type="search" placeholder="Nome do filme ou série…" autocomplete="off"><button id="tmdbAdminSearchButton" class="button button-primary" type="button">Pesquisar</button></div>
+        <p id="tmdbAdminSearchStatus" class="form-hint" role="status">Digite o nome para começar.</p>
+        <div id="tmdbAdminResults" class="tmdb-admin-results"></div>
+        <button id="cancelTmdbAdminSearch" class="button button-ghost full-width" type="button">Cancelar</button>
+      </section>
+      <form id="titleForm" class="admin-form hidden">
+        <input type="hidden" name="editId" value=""><div class="form-row"><label>Título<input name="title" required maxlength="100" placeholder="Ex.: A Jornada" /></label><label>Tipo<select name="type"><option>Filme</option><option>Série</option></select></label></div>
+        <div class="form-row"><label>Gênero<input name="genre" maxlength="50" placeholder="Aventura, drama..." /></label><label>Ano<input name="year" inputmode="numeric" maxlength="4" placeholder="2026" /></label></div>
+        <label>ID TMDB (somente números)<input name="tmdbId" inputmode="numeric" pattern="[0-9]*" placeholder="Ex.: 5920" /></label>
+        <label>URL da imagem de capa (opcional)<input name="poster" type="url" placeholder="https://..." /></label>
+        <label>Descrição<textarea name="description" rows="3" maxlength="500" placeholder="Sinopse do título..."></textarea></label>
+        <label>URL direta do vídeo (opcional)<input name="video" type="url" placeholder="https://.../video.mp4" /></label>
+        <label>Temporadas e episódios (séries)</label>
+        <div id="seasonBuilder" class="season-builder">
+          <div class="season-builder-actions"><button id="addSeasonButton" class="button button-ghost" type="button">＋ Adicionar temporada</button><button id="syncSeasonsButton" class="button button-ghost" type="button">Atualizar dados</button></div>
+          <div id="seasonEditorList"></div>
+          <p class="form-hint">Adicione temporadas e episódios pelos botões. Use “Buscar nome, descrição e ID no TMDB” para preencher automaticamente (conecte o TMDB pelo botão ☁ e informe o ID correto da série).</p>
+        </div>
+        <label class="season-json-label">Dados técnicos (JSON, avançado)<textarea name="seasons" rows="3" placeholder="Os dados das temporadas aparecerão aqui automaticamente."></textarea></label>
+        <p class="form-hint">O ID individual do episódio é opcional para o MegaEmbed: a reprodução usa o ID TMDB da série + número da temporada + número do episódio. O ID individual é guardado como metadado. Nomes e sinopses automáticos dependem dos dados disponíveis no TMDB.</p>
+        <button id="titleSubmit" class="button button-primary full-width" type="submit">＋ Adicionar título</button><button id="cancelEdit" class="button button-ghost full-width hidden" type="button">Cancelar edição</button>
+      </form>
+      <section id="bulkImportPanel" class="admin-form hidden" aria-label="Importação em massa">
+        <div class="admin-list-head"><h3>Importação automática em massa</h3><span class="form-hint">TMDB → Supabase</span></div>
+        <p class="form-hint">Importa até 1.000 filmes e séries populares e bem avaliados por lotes. Não adiciona vídeos e não sobrescreve registros existentes.</p>
+        <div class="form-row"><label>Quantidade máxima<select id="bulkLimit"><option value="1000" selected>1.000 títulos</option><option value="500">500 títulos</option><option value="200">200 títulos (teste)</option></select></label><label>Prioridade<select id="bulkPriority"><option value="mixed" selected>Populares + bem avaliados</option><option value="popular">Mais populares</option><option value="rated">Mais bem avaliados</option></select></label></div>
+        <label>Tipos<select id="bulkTypes"><option value="both" selected>Filmes e séries</option><option value="movie">Somente filmes</option><option value="tv">Somente séries</option></select></label>
+        <label>Gênero desejado<select id="bulkGenre"><option value="">Todos os gêneros</option><option value="28">Ação</option><option value="12">Aventura</option><option value="16">Animação</option><option value="35">Comédia</option><option value="80">Crime</option><option value="99">Documentário</option><option value="18">Drama</option><option value="10751">Família</option><option value="14">Fantasia</option><option value="27">Terror</option><option value="9648">Mistério</option><option value="10749">Romance</option><option value="878">Ficção científica</option><option value="53">Suspense</option></select></label>
+        <p class="form-hint">Escolha quantidade, tipo, gênero e prioridade. A importação traz metadados do TMDB; não inclui arquivos de vídeo nem garante fontes de reprodução.</p>
+        <div class="bulk-progress-track"><span id="bulkProgressBar"></span></div><p id="bulkProgressText" class="form-hint" role="status">Pronto para importar. A conexão com TMDB e o login de administrador são necessários.</p>
+        <div class="form-row"><button id="bulkStart" class="button button-primary" type="button">Iniciar importação</button><button id="bulkPause" class="button button-ghost" type="button" disabled>Pausar</button></div>
+        <button id="bulkResume" class="button button-ghost full-width hidden" type="button">Retomar importação salva</button>
+      </section>
+      <div class="admin-list-head"><h3>Títulos cadastrados</h3><button id="resetCatalog" class="text-button">Restaurar exemplos</button></div>
+      <p class="form-hint">Marque os títulos que deseja <strong>preservar</strong>. O botão abaixo excluirá os demais do catálogo compartilhado.</p><div class="bulk-delete-actions"><label><input type="checkbox" id="preserveSelectAll"> Selecionar todos para preservar</label><button id="deleteExceptPreserved" class="delete-button" type="button">Excluir todos, exceto selecionados</button></div>
+      <div id="adminList" class="admin-list"></div>
+      <button id="exportCatalog" class="button button-ghost full-width export-button">Exportar catálogo em JSON</button>
+    </div>
+  </div>
+
+  <div id="tmdbModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="tmdbTitle">
+    <div class="modal-backdrop" data-close="tmdb"></div><div class="modal-panel small-panel tmdb-panel"><button class="modal-close" data-close="tmdb" aria-label="Fechar">×</button><p class="eyebrow">CATÁLOGO ONLINE</p><h2 id="tmdbTitle">Conectar ao TMDB</h2><p>Adicione sua chave de acesso do TMDB para pesquisar filmes e séries reais, carregar títulos populares e usar pôsteres, sinopses, anos e gêneros atualizados.</p><label class="tmdb-label">API Key ou API Read Access Token<input id="tmdbToken" type="password" autocomplete="off" placeholder="Cole sua chave/token aqui"></label><label class="tmdb-check"><input id="tmdbAutoLoad" type="checkbox" checked> Carregar títulos populares ao conectar</label><p class="form-hint">A chave fica salva apenas neste navegador. Como a LumiPlay é um site estático, a chave pode ser vista por quem tiver acesso ao navegador/arquivos e não deve ser usada para um serviço público sem backend.</p><p class="tmdb-link"><a href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener">Obter chave no TMDB ↗</a> · <a href="https://developer.themoviedb.org/docs/faq" target="_blank" rel="noopener">Termos e atribuição</a></p><button id="tmdbSave" class="button button-primary full-width">Salvar e conectar</button><button id="tmdbDisconnect" class="button button-ghost full-width tmdb-disconnect">Desconectar</button></div>
+  </div>
+  <div id="tvChannelModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="tvModalTitle"><div class="modal-backdrop" data-close="tvChannel"></div><div class="modal-panel small-panel"><button class="modal-close" data-close="tvChannel" aria-label="Fechar">×</button><p class="eyebrow">TV AO VIVO</p><h2 id="tvModalTitle">Adicionar canal</h2><form id="tvChannelForm" class="admin-form"><label>Nome do canal<input id="tvName" required maxlength="100" placeholder="Ex.: Canal da comunidade"></label><label>Categoria<input id="tvGenre" maxlength="60" placeholder="Ex.: Notícias, Esportes, Público"></label><label>URL ou iframe do canal<input id="tvUrl" type="text" required placeholder="Cole a URL ou o código &lt;iframe&gt; completo" autocomplete="off" autocapitalize="off"></label><label>URL do logotipo (opcional)<input id="tvLogo" type="url" placeholder="https://..."></label><p class="form-hint">Cole diretamente o código completo recebido do provedor (incluindo &lt;iframe src="..."&gt;) ou somente a URL. O LumiPlay extrai o endereço src automaticamente. A reprodução ainda depende de o provedor permitir incorporação.</p><button type="submit" class="button button-primary full-width">Salvar canal</button></form></div></div>
+  <div id="tvPlayerModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="tvPlayerTitle"><div class="modal-backdrop" data-close="tvPlayer"></div><div class="modal-panel player-panel tv-player-panel"><button class="modal-close" data-close="tvPlayer" aria-label="Fechar">×</button><div class="tv-embed-wrap"><iframe id="tvEmbedFrame" title="Player TV ao Vivo" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe><button id="tvFullscreenButton" class="tv-fullscreen-button" type="button" aria-label="Ampliar transmissão" title="Ampliar transmissão">⛶</button></div><div class="player-info"><p class="eyebrow">TV AO VIVO</p><h2 id="tvPlayerTitle">Canal</h2><p id="tvPlayerNote">A transmissão é fornecida por um serviço externo.</p></div></div></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
