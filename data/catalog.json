@@ -1,0 +1,82 @@
+[
+  {
+    "id": "demo-1",
+    "title": "A Origem",
+    "type": "Filme",
+    "genre": "Ficção científica • Ação",
+    "year": "2010",
+    "description": "Dom Cobb invade sonhos para roubar segredos e recebe uma missão incomum: implantar uma ideia.",
+    "poster": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+    "video": ""
+  },
+  {
+    "id": "demo-2",
+    "title": "Stranger Things",
+    "type": "Série",
+    "genre": "Ficção científica • Terror",
+    "year": "2016",
+    "description": "O desaparecimento de um garoto leva seus amigos a descobrirem experiências secretas e uma dimensão perigosa.",
+    "poster": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfzn8t4EJ0q6g.jpg",
+    "video": ""
+  },
+  {
+    "id": "demo-3",
+    "title": "Interestelar",
+    "type": "Filme",
+    "genre": "Ficção científica • Drama",
+    "year": "2014",
+    "description": "Exploradores viajam pelo espaço em busca de um futuro para a humanidade.",
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "video": ""
+  },
+  {
+    "id": "demo-4",
+    "title": "The Last of Us",
+    "type": "Série",
+    "genre": "Drama • Ação",
+    "year": "2023",
+    "description": "Joel escolta Ellie por um mundo devastado por uma pandemia.",
+    "poster": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrDXAt2F7J78ED.jpg",
+    "video": ""
+  },
+  {
+    "id": "demo-5",
+    "title": "Duna: Parte Dois",
+    "type": "Filme",
+    "genre": "Ficção científica • Aventura",
+    "year": "2024",
+    "description": "Paul Atreides une forças com Chani e os Fremen.",
+    "poster": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+    "video": ""
+  },
+  {
+    "id": "demo-6",
+    "title": "Breaking Bad",
+    "type": "Série",
+    "genre": "Drama • Crime",
+    "year": "2008",
+    "description": "Um professor de química passa a produzir drogas com um antigo aluno.",
+    "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+    "video": ""
+  },
+  {
+    "id": "demo-7",
+    "title": "Homem-Aranha: Através do Aranhaverso",
+    "type": "Filme",
+    "genre": "Animação • Aventura",
+    "year": "2023",
+    "description": "Miles Morales atravessa o multiverso e encontra outras Pessoas-Aranha.",
+    "poster": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "video": ""
+  },
+  {
+    "id": "demo-8",
+    "title": "Batman",
+    "type": "Filme",
+    "genre": "Ação • Crime",
+    "year": "2022",
+    "description": "Batman investiga crimes que expõem a corrupção de Gotham City.",
+    "poster": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "video": ""
+  }
+]
